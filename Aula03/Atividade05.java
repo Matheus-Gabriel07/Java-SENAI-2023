@@ -10,6 +10,7 @@ public class Atividade05{
         int salarioMini = 1311;
         double alturaMaior = (int) 1.8;
         int pesoMenor = 60;
+        String nome = "Matheus";
         String generoMeu = "m";
 
         //Váriais de scanner
@@ -18,24 +19,22 @@ public class Atividade05{
 
         //Pedindo as informações
 
-        System.out.println("Digite o nome padrão: ");
-        String nome = sc.nextLine();
         System.out.println("Digite seu nome: ");
         String meuNome = sc.nextLine();
         System.out.println("Digite seu genero: ");
         String genero = sc.nextLine();
 
-        System.out.println("Qual a sua idade: ");
+        System.out.println("Digite sua idade: ");
         idade = sc.nextInt();
-        System.out.println("Qual o seu salário: ");
+        System.out.println("Digite o seu salário: ");
         salario = sc.nextInt();
-        System.out.println("Qual a sua altura: ");
+        System.out.println("Digite a sua altura: ");
         altura = sc.nextDouble();
-        System.out.println("Qual o seu peso: ");
+        System.out.println("Digite o seu peso: ");
         peso = sc.nextInt();
       
         //Aplicação da igualdade de Strings
-        boolean iguais =nome.equals(meuNome);
+        boolean iguais = nome.equals(meuNome);
         boolean semelhante = generoMeu.equals(genero);
 
         String mensagem = (iguais==true)?"True": "False";

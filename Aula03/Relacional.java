@@ -4,6 +4,8 @@
  *      OU -> || (retorna verdadeiro se pelo menos um dos lados for verdadeiros)
  *      == -> Verfica se o número da esquerda é igual ao da direita
  *      != -> Verifica se os números são diferentes
+ * 
+ * IMPORTANTE - Para comparar strings usamos o metodo "EQUALS"
  */
 
 package Aula03;
@@ -18,8 +20,6 @@ public class Relacional {
         System.out.println("Profe16ssor é menor de idade? "+(idadeAluno<idadeDeMaior));
         System.out.println(idadeDeMaior==18 && idadeAluno!=16);
         System.out.println(idadeDeMaior==18 || idadeAluno!=16);
-        System.out.println(idadeDeMaior==18 && idadeAluno==16);
-
-        
+        System.out.println(idadeDeMaior==18 && idadeAluno==16); 
     }    
 }
