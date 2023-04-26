@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class exercicio02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        String nomeFunc, endeco;
-        int tel, idade, horas;
+        String nomeFunc, endeco, tel;
+        int idade, horas;
         double salario, valorHora;
 
         System.out.println("Qual o nome do funcionário:");
@@ -16,12 +16,13 @@ public class exercicio02 {
         System.out.println("Digite a idade do funcionário");
         idade=sc.nextInt();
         System.out.println("Digite o telefone do funcionário:");
-        tel=sc.nextInt();
+        tel=sc.nextLine();
         System.out.println("O valor da hora é:");
         valorHora=sc.nextInt();
         System.out.println("Quantas horas ele vai trabalhar?");
         horas=sc.nextInt();
-        salario=horas*valorHora;
+
+        salario=(horas*valorHora); //cálculo da hora do salário
         System.out.println("O funcionário "+nomeFunc+" vai receber um salário de "+salario+" reais");
         sc.close();
     }
