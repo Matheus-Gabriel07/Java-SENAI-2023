@@ -30,7 +30,7 @@ public class Escola { //Esse programa cadastra alunos via scanner
         if (media==5 && (faltas>=5 && faltas<=19)){
             System.out.println("O alunos "+nomeAluno+" está de recuperação, entre em contato "+tel);
         }
-        if (media<5 && faltas>=20){
+        if (media<5 || faltas>=20){
             System.out.println("O alunos "+nomeAluno+" está de reprovado, entre em contato "+tel);
         }
         sc.close();
