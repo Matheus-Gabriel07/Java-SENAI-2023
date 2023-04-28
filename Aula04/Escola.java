@@ -26,13 +26,13 @@ public class Escola { //Esse programa cadastra alunos via scanner
         int faltas = sc.nextInt();
 
         //Condicionais
-        if (media>=5.1 && faltas<20){
+        if (media>=5.1 && faltas<4){
             System.out.println("O alunos "+nomeAluno+" está aprovado");
         }
-        if (media==5 && faltas==22){
+        if (media==5 && faltas>=5 && faltas<19){
             System.out.println("O alunos "+nomeAluno+" está de recuperação, entre em contato "+tel);
         }
-        if (media<=5 && faltas>=23){
+        if (media<5 && faltas>=20){
             System.out.println("O alunos "+nomeAluno+" está de reprovado, entre em contato "+tel);
         }
         sc.close();
