@@ -34,5 +34,6 @@ public class EstruturasCondicionais2 {
         if (salario==salarioMinimo && idade<idadeDeMaior){
             System.out.println("Você é menor de idade e ganha um salário minímo");
         }
+        sc.close();
     }
 }
