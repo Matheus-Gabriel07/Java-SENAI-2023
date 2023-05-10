@@ -27,7 +27,7 @@ public class DoWhile {
 
         } while (continuar); {
         }
-        
+
         sc.close();
     }
 }
