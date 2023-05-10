@@ -1,4 +1,4 @@
-package Aula06;
+package Aula06.FOR;
 
 public class PareseImpares {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Aula06;
+package Aula06.FOR;
 
 /*Laços de repetição são utilizados para executar um bloco de código uma determinada quantidade
  *de vezes, ou até que uma condição seja satisfeita.
