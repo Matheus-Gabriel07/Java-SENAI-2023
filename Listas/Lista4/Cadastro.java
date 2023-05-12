@@ -1,3 +1,5 @@
+//Programa que realiza cadstro de informações
+
 import java.util.Scanner;
 
 public class Cadastro {
@@ -7,13 +9,14 @@ public class Cadastro {
         int peso, idade;
         double altura, numAltura = 0;
 
+        //COnstantantes
         int idoso = 50;
         int pesoMin = 40;
         double alturaMin = 1, alturaMax = 2;
 
         System.out.println("== Cadastro de pessoas ==");
 
-        while (numPessoas != 5) {
+        while (numPessoas != 5) { //Laço até que atinja 5
                 System.out.println("Digite um peso");
                 peso = sc.nextInt();
 
@@ -36,6 +39,7 @@ public class Cadastro {
                     numAltura++;
                 }
         }
+
         System.out.println("== Resultados finais \n");
         System.out.println("Pessoas acima de 50: "+numIdade);
         System.out.println("Pessoas abaixo de 40kg: "+numPeso);
