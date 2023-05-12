@@ -1,3 +1,5 @@
+package Lista4;
+
 public class Tabuada {
     public static void main(String[] args) {
         System.out.println(" == Tabuadas ==");

@@ -1,4 +1,5 @@
 //Programa que realiza cadstro de informações
+package Lista4;
 
 import java.util.Scanner;
 
