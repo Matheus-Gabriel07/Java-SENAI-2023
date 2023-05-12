@@ -1,6 +1,6 @@
 package Aula06;
 
-// Exemplo usando o equals
+// Exemplo teste usando o equals
 
 import java.util.Scanner;
 
